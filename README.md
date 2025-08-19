@@ -25,7 +25,7 @@ To practice building interactive and user-friendly forms, showcasing the ability
 ## 🖼️ Demonstração
 
 ### Tela inicial
-![Formulário vazio](imagens/Formulario1.png)
+![Formulário vazio](imagem/Formulario1.png)
 
 ### Formulário enviado com sucesso
-![Formulário enviado](imagens/Formulario2.png)
+![Formulário enviado](imagem/Formulario2.png)
