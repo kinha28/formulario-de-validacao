@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"><!-- codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- responsividade mobile -->
+    <meta name="description" content="Descrição breve do conteúdo da página"><!-- descrição da página -->
+    <meta name="keywords" content="HTML, CSS, JavaScript, Frontend"><!-- palavras-chave -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- compatibilidade -->
+    <meta name="author" content="Yanka"><!-- autor -->
+
+    <link rel="stylesheet" href="style.css"><!-- CSS externtul do -->
+    <title>Formulário com Validação</title><!-- titulo do documento -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário de Contato</h1>
+        <form id="formulario">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+                <small class="erro"></small>
+            </div>
+
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email">
+                <small class="erro"></small>
+            </div>
+
+            <div class="campo">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+                <small class="erro"></small>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
